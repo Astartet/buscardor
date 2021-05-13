@@ -1,0 +1,35 @@
+.card-title{
+    color: #e9e9e8;
+}
+
+.card-body{
+    background: #042e41;
+    color: #c8d8eb;
+    border-radius: 0px 0px 10px 10px;
+}
+.btn{
+    background: white;
+    
+    
+}
+
+span{
+    opacity: 0;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 0 0 60px 0;
+}
+#logo:hover{
+    height: 40px;
+    width: 90px;
+    border-radius: 8px;
+    background: white;
+    color:black;
+    transition: 0.5s;
+}
+#logo:hover > span{
+    opacity: 1;
+    transition: 0.75s;
+}
